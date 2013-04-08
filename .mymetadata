@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="JSPInstaller"
+  id="myeclipse.1364948767465"
+  context-root="/JSPInstaller"
+  j2ee-spec="5.0"
+  archive="JSPInstaller.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseInfo>
+    <driver>com.mysql.jdbc.Driver</driver>
+	<url>jdbc:mysql://${dataBaseIP}:3306/jchatting</url>
+	<user>root</user>
+	<password>""</password>
+	<sessionTime>3000</sessionTime>
+	<sbId></sbId>
+</databaseInfo>

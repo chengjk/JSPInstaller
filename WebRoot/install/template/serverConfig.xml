@@ -1,0 +1,9 @@
+<config>
+	<!-- 60 second outline message -->
+	<ip>${dataBaseIP}</ip>
+	<port>1234</port>
+	<time>60</time>
+	<maxThread>100</maxThread>>
+	<ipConfig>${mapServer}/全国地图</ipConfig>
+	<portConfig>1235</portConfig>
+</config>

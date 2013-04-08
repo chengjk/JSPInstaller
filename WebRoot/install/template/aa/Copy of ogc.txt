@@ -1,0 +1,5 @@
+<Context>
+	<dataIP>${dataBaseIP}</dataIP>
+	<map>${mapServer}/х╚╧З╣ьм╪</map>
+</Context>
+
