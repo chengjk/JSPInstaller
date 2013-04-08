@@ -22,7 +22,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	-->
 	<style type="text/css">
 	#content{ position: relative; padding-top: 50px;padding-left: 10;border: 1px}
-	#btns{padding-left: 350px}
+	#btns{padding-left: 360px}
 	</style>
 	<script type="text/javascript">
 		function load(){
@@ -80,7 +80,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					<td align="left"><font color="#c0c0c0">输入数据库服务器IP，例如192.168.116.47、localhost。</font></td></tr>
 					<tr>
 					<td align="right">数据库类型：</td>
-					<td align="left"><select id="dbtype" name="dbtype" onchange="onSelect()"> 
+					<td align="left"><select id="dbtype" name="dbtype" style="width:300px;" onchange="onSelect()"> 
 											<option value="oracle" selected> 
 												Oracle 
 											</option> 
@@ -118,6 +118,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					<input type="button" style=" height:30px;width: 100px; right: 5px" onclick="window.location.href='<%=basePath %>'" value="完成"/>
 					</div>
 			</form>
+			<p><font color="#ff8000">Oracle创建表空间语句</font><br>
+					CREATE TABLESPACE test_data LOGGING <br>
+					DATAFILE 'C:\ORACLE\PRODUCT\10.1.0\ORADATA\ORCL\TEST_DATA01.DBF' <br>
+					SIZE 32M  <br>
+					AUTOEXTEND ON NEXT 32M MAXSIZE 2048M <br>
+					EXTENT MANAGEMENT LOCAL</p>
 		</div>
 		<%
 			if (request.getParameter("flag") == null)
